@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+}
+div > h1 {
+  display: flex;
+  height: 20vh;
+  width: 100%;
+  color: aqua;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+}
+
+h4 {
+  background-color: antiquewhite;
+  display: flex;
+  height: 5vh;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  border: 2px solid aqua;
+}
+.main {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: space-around;
+}
+img {
+  position: relative;
+  height: 200px;
+}
+
+.one {
+  height: 50vh;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#second {
+  height: 50vh;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.two {
+  height: 50vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dice {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(245, 0, 0);
+  position: relative;
+  border-radius: 10%;
+  border: 2px solid aqua;
+}
+.dice2 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: rgb(245, 0, 0);
+  display: flex;
+  align-items: center;
+  border-radius: 10%;
+  border: 1px solid aqua;
+
+  margin: 0px;
+}
+
+.done {
+  border: 2px solid rgb(0, 0, 0);
+  height: 30px;
+  width: 30px;
+  background-color: aquamarine;
+  border-radius: 50%;
+  display: flex;
+}
