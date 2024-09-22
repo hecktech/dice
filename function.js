@@ -17,7 +17,7 @@ document.querySelector(".dice2>img").setAttribute("src",player2);
 
 
 if(player1>player2){
-    document.querySelector("h1").innerHTML=player1name+" Win;
+    document.querySelector("h1").innerHTML=player1name+" Win";
 }
 else if(player2>player1){
     document.querySelector("h1").innerHTML= player2name +" Win";
