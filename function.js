@@ -2,7 +2,8 @@
 var input1=prompt("Enter player 1 name ");
 var player1name=input1||"Player 1"
 document.querySelector(".one>h4").innerHTML=player1name;
-var player2name=prompt("Enter player 2 name ");
+var input2=prompt("Enter player 2 name ");
+var player2name=input2||"Player 2"
 document.querySelector(".two>h4").innerHTML=player2name;
 
 
